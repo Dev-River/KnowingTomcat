@@ -13,7 +13,7 @@ import org.apache.catalina.DefaultContext;
 public class SimpleLoader implements Loader {
 
   public static final String WEB_ROOT =
-    System.getProperty("user.dir") + File.separator  + "webroot";
+    System.getProperty("user.dir") + File.separator  + "webapp";
 
   ClassLoader classLoader = null;
   Container container = null;
