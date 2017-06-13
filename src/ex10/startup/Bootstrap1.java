@@ -27,8 +27,8 @@ public final class Bootstrap1 {
 
         Context context = new StandardContext();
         // StandardContext's start method adds a default mapper
-        context.setPath("/myApp");
-        context.setDocBase("myApp");
+        context.setPath("/webapp");
+        context.setDocBase("webapp");
         LifecycleListener listener = new SimpleContextConfig();
         ((Lifecycle) context).addLifecycleListener(listener);
 
